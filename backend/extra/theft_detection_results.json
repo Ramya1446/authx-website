@@ -1,0 +1,3819 @@
+{
+  "dataset_info": {
+    "originals_registered": 30,
+    "theft_attempts_tested": 480
+  },
+  "results": {
+    "theft_detection": {
+      "exact_copies": {
+        "detected": 30,
+        "total": 30,
+        "detection_rate": 100.0
+      },
+      "minor_edits": {
+        "detected": 90,
+        "total": 90,
+        "detection_rate": 100.0
+      },
+      "moderate_edits": {
+        "detected": 150,
+        "total": 150,
+        "detection_rate": 100.0
+      },
+      "heavy_ai_edits": {
+        "detected": 119,
+        "total": 120,
+        "detection_rate": 99.16666666666667
+      },
+      "extreme_edits": {
+        "detected": 80,
+        "total": 90,
+        "detection_rate": 88.88888888888889
+      },
+      "detailed_results": [
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.35 AM_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.35 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 14.159679412841797
+        },
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (1)_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 18.80478858947754
+        },
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (2)_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 14.855384826660156
+        },
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 18.002033233642578
+        },
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (1)_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 20.27273178100586
+        },
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (2)_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 23.960351943969727
+        },
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 19.889116287231445
+        },
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (1)_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 16.04747772216797
+        },
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (2)_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 17.2576904296875
+        },
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 18.286705017089844
+        },
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (1)_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 23.630857467651367
+        },
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (2)_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 23.55790138244629
+        },
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (3)_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (3)",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 20.984172821044922
+        },
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 17.600059509277344
+        },
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.40 AM_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.40 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 18.39160919189453
+        },
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.28 AM_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.28 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 19.484758377075195
+        },
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (1)_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 13.999700546264648
+        },
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (2)_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 19.09613609313965
+        },
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 18.30005645751953
+        },
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (1)_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 21.93307876586914
+        },
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (2)_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 22.836685180664062
+        },
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 20.60985565185547
+        },
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.31 AM_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.31 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 24.735450744628906
+        },
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (1)_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 23.375511169433594
+        },
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (2)_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 25.202512741088867
+        },
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 18.486499786376953
+        },
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (1)_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 23.637771606445312
+        },
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (2)_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 21.23880386352539
+        },
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 21.839380264282227
+        },
+        {
+          "modification_level": "exact_copies",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.34 AM_stolen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.34 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.0,
+          "processing_time_ms": 30.112028121948242
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.35 AM_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.35 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.275,
+          "processing_time_ms": 115.54408073425293
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.35 AM_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.35 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.275,
+          "processing_time_ms": 85.75153350830078
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.35 AM_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.35 AM",
+          "similarity": 96.875,
+          "tamper_score": 0.315,
+          "processing_time_ms": 90.41690826416016
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (1)_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.315,
+          "processing_time_ms": 102.78105735778809
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (1)_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.315,
+          "processing_time_ms": 94.48385238647461
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (1)_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (1)",
+          "similarity": 93.75,
+          "tamper_score": 0.395,
+          "processing_time_ms": 113.71445655822754
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (2)_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (2)",
+          "similarity": 98.4375,
+          "tamper_score": 0.315,
+          "processing_time_ms": 86.1363410949707
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (2)_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.315,
+          "processing_time_ms": 78.56345176696777
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (2)_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (2)",
+          "similarity": 95.3125,
+          "tamper_score": 0.355,
+          "processing_time_ms": 86.25268936157227
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.4950000000000001,
+          "processing_time_ms": 88.46735954284668
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.4950000000000001,
+          "processing_time_ms": 92.76556968688965
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.4950000000000001,
+          "processing_time_ms": 90.50536155700684
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (1)_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM (1)",
+          "similarity": 98.4375,
+          "tamper_score": 0.155,
+          "processing_time_ms": 85.6318473815918
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (1)_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 86.39812469482422
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (1)_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM (1)",
+          "similarity": 92.1875,
+          "tamper_score": 0.23,
+          "processing_time_ms": 90.08526802062988
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (2)_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.24,
+          "processing_time_ms": 124.43923950195312
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (2)_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.31000000000000005,
+          "processing_time_ms": 125.40388107299805
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (2)_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM (2)",
+          "similarity": 96.875,
+          "tamper_score": 0.395,
+          "processing_time_ms": 125.89645385742188
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 87.82601356506348
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 87.18729019165039
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM",
+          "similarity": 96.875,
+          "tamper_score": 0.24000000000000002,
+          "processing_time_ms": 84.76090431213379
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (1)_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.27,
+          "processing_time_ms": 80.96981048583984
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (1)_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.31000000000000005,
+          "processing_time_ms": 80.17611503601074
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (1)_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (1)",
+          "similarity": 98.4375,
+          "tamper_score": 0.35000000000000003,
+          "processing_time_ms": 83.7564468383789
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (2)_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 83.01067352294922
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (2)_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 83.41717720031738
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (2)_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (2)",
+          "similarity": 95.3125,
+          "tamper_score": 0.24,
+          "processing_time_ms": 89.79392051696777
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 93.5361385345459
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 86.82084083557129
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM",
+          "similarity": 98.4375,
+          "tamper_score": 0.125,
+          "processing_time_ms": 87.07571029663086
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (1)_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.395,
+          "processing_time_ms": 112.84351348876953
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (1)_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.395,
+          "processing_time_ms": 116.87922477722168
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (1)_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.395,
+          "processing_time_ms": 115.36693572998047
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (2)_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.315,
+          "processing_time_ms": 114.00961875915527
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (2)_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.315,
+          "processing_time_ms": 109.75027084350586
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (2)_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (2)",
+          "similarity": 98.4375,
+          "tamper_score": 0.395,
+          "processing_time_ms": 119.23694610595703
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (3)_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (3)",
+          "similarity": 100.0,
+          "tamper_score": 0.36,
+          "processing_time_ms": 91.40896797180176
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (3)_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (3)",
+          "similarity": 100.0,
+          "tamper_score": 0.36,
+          "processing_time_ms": 82.53264427185059
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (3)_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (3)",
+          "similarity": 96.875,
+          "tamper_score": 0.535,
+          "processing_time_ms": 85.61038970947266
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.32000000000000006,
+          "processing_time_ms": 79.01906967163086
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.32000000000000006,
+          "processing_time_ms": 84.58280563354492
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM",
+          "similarity": 98.4375,
+          "tamper_score": 0.43000000000000005,
+          "processing_time_ms": 82.40604400634766
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.40 AM_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.40 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.24,
+          "processing_time_ms": 86.60030364990234
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.40 AM_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.40 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.24,
+          "processing_time_ms": 83.54830741882324
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.40 AM_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.40 AM",
+          "similarity": 92.1875,
+          "tamper_score": 0.28,
+          "processing_time_ms": 84.23781394958496
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.28 AM_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.28 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 111.38463020324707
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.28 AM_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.28 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 104.80117797851562
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.28 AM_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.28 AM",
+          "similarity": 92.1875,
+          "tamper_score": 0.315,
+          "processing_time_ms": 115.23127555847168
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (1)_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.24,
+          "processing_time_ms": 88.86337280273438
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (1)_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.24,
+          "processing_time_ms": 87.79740333557129
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (1)_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (1)",
+          "similarity": 92.1875,
+          "tamper_score": 0.28,
+          "processing_time_ms": 84.66982841491699
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (2)_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (2)",
+          "similarity": 98.4375,
+          "tamper_score": 0.275,
+          "processing_time_ms": 104.21943664550781
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (2)_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (2)",
+          "similarity": 98.4375,
+          "tamper_score": 0.22500000000000003,
+          "processing_time_ms": 110.18514633178711
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (2)_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (2)",
+          "similarity": 90.625,
+          "tamper_score": 0.275,
+          "processing_time_ms": 111.67788505554199
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.35000000000000003,
+          "processing_time_ms": 104.95495796203613
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.31000000000000005,
+          "processing_time_ms": 112.1358871459961
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.32000000000000006,
+          "processing_time_ms": 114.29119110107422
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (1)_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.43500000000000005,
+          "processing_time_ms": 110.37158966064453
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (1)_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.395,
+          "processing_time_ms": 111.36150360107422
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (1)_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (1)",
+          "similarity": 98.4375,
+          "tamper_score": 0.43500000000000005,
+          "processing_time_ms": 108.61682891845703
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (2)_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (2)",
+          "similarity": 96.875,
+          "tamper_score": 0.155,
+          "processing_time_ms": 113.52109909057617
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (2)_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 111.42897605895996
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (2)_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (2)",
+          "similarity": 95.3125,
+          "tamper_score": 0.155,
+          "processing_time_ms": 114.62569236755371
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.31,
+          "processing_time_ms": 111.36150360107422
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.24,
+          "processing_time_ms": 105.65519332885742
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM",
+          "similarity": 98.4375,
+          "tamper_score": 0.3600000000000001,
+          "processing_time_ms": 109.88783836364746
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.31 AM_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.31 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.115,
+          "processing_time_ms": 113.94858360290527
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.31 AM_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.31 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 111.16623878479004
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.31 AM_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.31 AM",
+          "similarity": 95.3125,
+          "tamper_score": 0.115,
+          "processing_time_ms": 117.56467819213867
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (1)_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.27,
+          "processing_time_ms": 107.97286033630371
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (1)_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 113.89851570129395
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (1)_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (1)",
+          "similarity": 93.75,
+          "tamper_score": 0.195,
+          "processing_time_ms": 113.25240135192871
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (2)_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 112.42437362670898
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (2)_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 118.67070198059082
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (2)_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (2)",
+          "similarity": 95.3125,
+          "tamper_score": 0.075,
+          "processing_time_ms": 117.6908016204834
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 105.69357872009277
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 112.7777099609375
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 112.36453056335449
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (1)_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 108.8716983795166
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (1)_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 114.6087646484375
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (1)_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM (1)",
+          "similarity": 87.5,
+          "tamper_score": 0.2,
+          "processing_time_ms": 107.92875289916992
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (2)_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 108.56819152832031
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (2)_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 109.25531387329102
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (2)_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM (2)",
+          "similarity": 90.625,
+          "tamper_score": 0.2,
+          "processing_time_ms": 116.70398712158203
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM",
+          "similarity": 96.875,
+          "tamper_score": 0.075,
+          "processing_time_ms": 112.39099502563477
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM",
+          "similarity": 96.875,
+          "tamper_score": 0.075,
+          "processing_time_ms": 118.12353134155273
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM",
+          "similarity": 87.5,
+          "tamper_score": 0.125,
+          "processing_time_ms": 138.28611373901367
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.34 AM_brightness.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.34 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 115.24438858032227
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.34 AM_contrast.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.34 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 108.56747627258301
+        },
+        {
+          "modification_level": "minor_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.34 AM_crop.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.34 AM",
+          "similarity": 92.1875,
+          "tamper_score": 0.125,
+          "processing_time_ms": 113.0833625793457
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.35 AM_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.35 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.45499999999999996,
+          "processing_time_ms": 90.01398086547852
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.35 AM_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.35 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.395,
+          "processing_time_ms": 80.76739311218262
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.35 AM_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.35 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.315,
+          "processing_time_ms": 83.45770835876465
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.35 AM_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.35 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 83.40167999267578
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.35 AM_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.35 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.315,
+          "processing_time_ms": 82.10921287536621
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (1)_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.45499999999999996,
+          "processing_time_ms": 94.00534629821777
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (1)_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.395,
+          "processing_time_ms": 95.71313858032227
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (1)_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.315,
+          "processing_time_ms": 92.22054481506348
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (1)_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.275,
+          "processing_time_ms": 94.58541870117188
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (1)_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.315,
+          "processing_time_ms": 95.74079513549805
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (2)_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.45499999999999996,
+          "processing_time_ms": 82.50713348388672
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (2)_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.395,
+          "processing_time_ms": 84.27095413208008
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (2)_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.315,
+          "processing_time_ms": 83.39047431945801
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (2)_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 80.92188835144043
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (2)_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.315,
+          "processing_time_ms": 87.25976943969727
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.5950000000000001,
+          "processing_time_ms": 92.36621856689453
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.5950000000000001,
+          "processing_time_ms": 95.97969055175781
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.535,
+          "processing_time_ms": 90.55542945861816
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.42000000000000004,
+          "processing_time_ms": 101.8822193145752
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.42000000000000004,
+          "processing_time_ms": 96.46868705749512
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (1)_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.485,
+          "processing_time_ms": 82.38077163696289
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (1)_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.23,
+          "processing_time_ms": 84.66696739196777
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (1)_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 86.55881881713867
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (1)_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 88.78803253173828
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (1)_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.23,
+          "processing_time_ms": 84.6397876739502
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (2)_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.485,
+          "processing_time_ms": 126.91712379455566
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (2)_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.32000000000000006,
+          "processing_time_ms": 131.62636756896973
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (2)_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.3500000000000001,
+          "processing_time_ms": 129.96530532836914
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (2)_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 134.35769081115723
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (2)_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.24,
+          "processing_time_ms": 130.1589012145996
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.45499999999999996,
+          "processing_time_ms": 91.92323684692383
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 89.27154541015625
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 87.8760814666748
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 89.33115005493164
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 96.62508964538574
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (1)_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.485,
+          "processing_time_ms": 79.92792129516602
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (1)_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.41000000000000003,
+          "processing_time_ms": 76.61795616149902
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (1)_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.31000000000000005,
+          "processing_time_ms": 83.8167667388916
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (1)_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 84.77091789245605
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (1)_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.27,
+          "processing_time_ms": 87.98694610595703
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (2)_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.45499999999999996,
+          "processing_time_ms": 93.31846237182617
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (2)_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.32000000000000006,
+          "processing_time_ms": 93.95694732666016
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (2)_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 92.94724464416504
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (2)_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 99.35116767883301
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (2)_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 95.24774551391602
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.45499999999999996,
+          "processing_time_ms": 165.4822826385498
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 101.12571716308594
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 90.33012390136719
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 93.70827674865723
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 92.44227409362793
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (1)_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.45499999999999996,
+          "processing_time_ms": 121.53387069702148
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (1)_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.45499999999999996,
+          "processing_time_ms": 131.697416305542
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (1)_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.395,
+          "processing_time_ms": 125.33760070800781
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (1)_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.315,
+          "processing_time_ms": 121.83904647827148
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (1)_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.395,
+          "processing_time_ms": 129.5316219329834
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (2)_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.495,
+          "processing_time_ms": 126.34611129760742
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (2)_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.395,
+          "processing_time_ms": 125.05960464477539
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (2)_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.315,
+          "processing_time_ms": 119.2014217376709
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (2)_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.275,
+          "processing_time_ms": 134.18173789978027
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (2)_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.315,
+          "processing_time_ms": 123.89731407165527
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (3)_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (3)",
+          "similarity": 100.0,
+          "tamper_score": 0.5650000000000001,
+          "processing_time_ms": 103.26766967773438
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (3)_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (3)",
+          "similarity": 100.0,
+          "tamper_score": 0.535,
+          "processing_time_ms": 94.27762031555176
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (3)_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (3)",
+          "similarity": 100.0,
+          "tamper_score": 0.4,
+          "processing_time_ms": 96.06504440307617
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (3)_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (3)",
+          "similarity": 100.0,
+          "tamper_score": 0.36000000000000004,
+          "processing_time_ms": 95.84498405456543
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (3)_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (3)",
+          "similarity": 100.0,
+          "tamper_score": 0.4,
+          "processing_time_ms": 94.69175338745117
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.5650000000000001,
+          "processing_time_ms": 94.34270858764648
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.49,
+          "processing_time_ms": 98.06346893310547
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.39,
+          "processing_time_ms": 112.8385066986084
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.32000000000000006,
+          "processing_time_ms": 111.12403869628906
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.3500000000000001,
+          "processing_time_ms": 104.45713996887207
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.40 AM_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.40 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.495,
+          "processing_time_ms": 108.25276374816895
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.40 AM_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.40 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.36,
+          "processing_time_ms": 99.40862655639648
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.40 AM_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.40 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.28,
+          "processing_time_ms": 105.75032234191895
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.40 AM_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.40 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 102.76341438293457
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.40 AM_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.40 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.28,
+          "processing_time_ms": 116.93406105041504
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.28 AM_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.28 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.45499999999999996,
+          "processing_time_ms": 148.6225128173828
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.28 AM_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.28 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.395,
+          "processing_time_ms": 158.44321250915527
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.28 AM_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.28 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 158.08367729187012
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.28 AM_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.28 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 116.71924591064453
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.28 AM_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.28 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 131.20365142822266
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (1)_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.485,
+          "processing_time_ms": 95.17049789428711
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (1)_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.32000000000000006,
+          "processing_time_ms": 88.80138397216797
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (1)_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.24,
+          "processing_time_ms": 93.15919876098633
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (1)_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 94.7427749633789
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (1)_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.24,
+          "processing_time_ms": 94.18916702270508
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (2)_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.635,
+          "processing_time_ms": 139.03045654296875
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (2)_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.22500000000000003,
+          "processing_time_ms": 131.12640380859375
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (2)_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.22500000000000003,
+          "processing_time_ms": 138.91029357910156
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (2)_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.22500000000000003,
+          "processing_time_ms": 143.92685890197754
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (2)_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.22500000000000003,
+          "processing_time_ms": 128.15618515014648
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.525,
+          "processing_time_ms": 125.54574012756348
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.39,
+          "processing_time_ms": 118.61014366149902
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.35000000000000003,
+          "processing_time_ms": 120.20444869995117
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.165,
+          "processing_time_ms": 122.75433540344238
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.31000000000000005,
+          "processing_time_ms": 120.24259567260742
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (1)_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.525,
+          "processing_time_ms": 122.68304824829102
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (1)_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.495,
+          "processing_time_ms": 111.9229793548584
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (1)_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.395,
+          "processing_time_ms": 163.50722312927246
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (1)_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.28,
+          "processing_time_ms": 297.00541496276855
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (1)_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.43500000000000005,
+          "processing_time_ms": 355.5738925933838
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (2)_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.5249999999999999,
+          "processing_time_ms": 264.6901607513428
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (2)_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.195,
+          "processing_time_ms": 355.7395935058594
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (2)_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 264.79554176330566
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (2)_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.105,
+          "processing_time_ms": 290.9235954284668
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (2)_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.195,
+          "processing_time_ms": 317.8749084472656
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.525,
+          "processing_time_ms": 270.1902389526367
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.3600000000000001,
+          "processing_time_ms": 274.7671604156494
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.28,
+          "processing_time_ms": 283.9512825012207
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.24000000000000002,
+          "processing_time_ms": 298.49720001220703
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.28,
+          "processing_time_ms": 269.90294456481934
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.31 AM_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.31 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.495,
+          "processing_time_ms": 346.47345542907715
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.31 AM_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.31 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.115,
+          "processing_time_ms": 301.0396957397461
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.31 AM_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.31 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 282.64546394348145
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.31 AM_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.31 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 271.39878273010254
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.31 AM_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.31 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.115,
+          "processing_time_ms": 327.472448348999
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (1)_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.5249999999999999,
+          "processing_time_ms": 397.2816467285156
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (1)_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.27,
+          "processing_time_ms": 1899.8987674713135
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (1)_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 379.258394241333
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (1)_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.155,
+          "processing_time_ms": 274.14774894714355
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (1)_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.195,
+          "processing_time_ms": 341.9191837310791
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (2)_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.45499999999999996,
+          "processing_time_ms": 602.5166511535645
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (2)_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 459.60330963134766
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (2)_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 1562.410593032837
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (2)_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 564.0366077423096
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (2)_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 590.5861854553223
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.485,
+          "processing_time_ms": 396.6805934906006
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.28,
+          "processing_time_ms": 1319.1089630126953
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 310.7278347015381
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 366.51158332824707
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 272.37462997436523
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (1)_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.45499999999999996,
+          "processing_time_ms": 331.1777114868164
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (1)_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.24,
+          "processing_time_ms": 388.6523246765137
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (1)_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 299.58271980285645
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (1)_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 469.7082042694092
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (1)_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 415.7531261444092
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (2)_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.45499999999999996,
+          "processing_time_ms": 320.5423355102539
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (2)_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.24,
+          "processing_time_ms": 290.4038429260254
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (2)_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 309.558629989624
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (2)_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 348.5739231109619
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (2)_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 343.6543941497803
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.395,
+          "processing_time_ms": 274.00898933410645
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 291.1689281463623
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM",
+          "similarity": 96.875,
+          "tamper_score": 0.075,
+          "processing_time_ms": 295.9730625152588
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM",
+          "similarity": 98.4375,
+          "tamper_score": 0.075,
+          "processing_time_ms": 379.23192977905273
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 296.6597080230713
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.34 AM_blur.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.34 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.45499999999999996,
+          "processing_time_ms": 288.7265682220459
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.34 AM_resize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.34 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 339.8270606994629
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.34 AM_saturation.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.34 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 406.54587745666504
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.34 AM_sharpen.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.34 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 315.3238296508789
+        },
+        {
+          "modification_level": "moderate_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.34 AM_watermark.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.34 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 334.58876609802246
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.35 AM_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.35 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.315,
+          "processing_time_ms": 247.6639747619629
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.35 AM_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.35 AM",
+          "similarity": 98.4375,
+          "tamper_score": 0.125,
+          "processing_time_ms": 236.04297637939453
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.35 AM_noise.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.35 AM",
+          "similarity": 95.3125,
+          "tamper_score": 0.075,
+          "processing_time_ms": 275.073766708374
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.35 AM_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.35 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.315,
+          "processing_time_ms": 297.3060607910156
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (1)_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.315,
+          "processing_time_ms": 274.0476131439209
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (1)_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 309.3299865722656
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (1)_noise.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 285.08520126342773
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (1)_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.315,
+          "processing_time_ms": 287.36042976379395
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (2)_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.315,
+          "processing_time_ms": 259.3355178833008
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (2)_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 259.1969966888428
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (2)_noise.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 251.4050006866455
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (2)_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.24,
+          "processing_time_ms": 263.7042999267578
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.535,
+          "processing_time_ms": 303.39956283569336
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.195,
+          "processing_time_ms": 252.05469131469727
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.535,
+          "processing_time_ms": 275.71702003479004
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (1)_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 253.3884048461914
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (1)_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM (1)",
+          "similarity": 95.3125,
+          "tamper_score": 0.075,
+          "processing_time_ms": 265.7759189605713
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (1)_noise.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM (1)",
+          "similarity": 93.75,
+          "tamper_score": 0.075,
+          "processing_time_ms": 305.8285713195801
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (1)_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 321.02084159851074
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (2)_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.28,
+          "processing_time_ms": 399.2271423339844
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (2)_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 389.6663188934326
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (2)_noise.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM (2)",
+          "similarity": 90.625,
+          "tamper_score": 0.075,
+          "processing_time_ms": 424.27682876586914
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (2)_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM (2)",
+          "similarity": 98.4375,
+          "tamper_score": 0.3500000000000001,
+          "processing_time_ms": 350.2025604248047
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 293.9164638519287
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 273.67377281188965
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM_noise.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 258.9437961578369
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 252.15697288513184
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (1)_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (1)",
+          "similarity": 98.4375,
+          "tamper_score": 0.31000000000000005,
+          "processing_time_ms": 276.51429176330566
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (1)_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (1)",
+          "similarity": 98.4375,
+          "tamper_score": 0.075,
+          "processing_time_ms": 308.35819244384766
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (1)_noise.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (1)",
+          "similarity": 71.875,
+          "tamper_score": 0.075,
+          "processing_time_ms": 302.884578704834
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (1)_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.31000000000000005,
+          "processing_time_ms": 245.91994285583496
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (2)_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 182.82008171081543
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (2)_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 245.2414035797119
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (2)_noise.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (2)",
+          "similarity": 96.875,
+          "tamper_score": 0.075,
+          "processing_time_ms": 214.5090103149414
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (2)_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 168.34354400634766
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 187.36791610717773
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 222.30267524719238
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM_noise.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 244.75598335266113
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 189.65983390808105
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (1)_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.35500000000000004,
+          "processing_time_ms": 298.7802028656006
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (1)_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 300.9951114654541
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (1)_noise.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 340.4412269592285
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (1)_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.35500000000000004,
+          "processing_time_ms": 284.30938720703125
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (2)_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.315,
+          "processing_time_ms": 251.1739730834961
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (2)_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 282.05251693725586
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (2)_noise.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 288.1748676300049
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (2)_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.315,
+          "processing_time_ms": 275.9389877319336
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (3)_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (3)",
+          "similarity": 100.0,
+          "tamper_score": 0.4,
+          "processing_time_ms": 190.26851654052734
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (3)_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (3)",
+          "similarity": 100.0,
+          "tamper_score": 0.115,
+          "processing_time_ms": 206.2227725982666
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (3)_noise.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (3)",
+          "similarity": 100.0,
+          "tamper_score": 0.20500000000000002,
+          "processing_time_ms": 205.0034999847412
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (3)_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (3)",
+          "similarity": 100.0,
+          "tamper_score": 0.4,
+          "processing_time_ms": 229.28380966186523
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.4,
+          "processing_time_ms": 217.70977973937988
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 229.25233840942383
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM_noise.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.115,
+          "processing_time_ms": 209.52749252319336
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.36,
+          "processing_time_ms": 192.82197952270508
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.40 AM_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.40 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.28,
+          "processing_time_ms": 214.05577659606934
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.40 AM_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.40 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 218.12105178833008
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.40 AM_noise.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.40 AM",
+          "similarity": 95.3125,
+          "tamper_score": 0.075,
+          "processing_time_ms": 224.35665130615234
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.40 AM_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.40 AM",
+          "similarity": 98.4375,
+          "tamper_score": 0.28,
+          "processing_time_ms": 188.64202499389648
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.28 AM_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.28 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 380.85198402404785
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.28 AM_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.28 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 294.36659812927246
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.28 AM_noise.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.28 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 285.19201278686523
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.28 AM_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.28 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 261.1403465270996
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (1)_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.24,
+          "processing_time_ms": 190.7632350921631
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (1)_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 227.63729095458984
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (1)_noise.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (1)",
+          "similarity": 96.875,
+          "tamper_score": 0.075,
+          "processing_time_ms": 208.42885971069336
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (1)_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.24,
+          "processing_time_ms": 205.5795192718506
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (2)_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.275,
+          "processing_time_ms": 294.6662902832031
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (2)_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (2)",
+          "similarity": 96.875,
+          "tamper_score": 0.185,
+          "processing_time_ms": 281.6953659057617
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (2)_noise.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.22500000000000003,
+          "processing_time_ms": 287.200927734375
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (2)_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (2)",
+          "similarity": 93.75,
+          "tamper_score": 0.22500000000000003,
+          "processing_time_ms": 309.65209007263184
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.31000000000000005,
+          "processing_time_ms": 247.87592887878418
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 305.7522773742676
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM_noise.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM",
+          "similarity": 71.875,
+          "tamper_score": 0.075,
+          "processing_time_ms": 345.24011611938477
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.31000000000000005,
+          "processing_time_ms": 301.1507987976074
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (1)_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.395,
+          "processing_time_ms": 297.03283309936523
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (1)_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 271.2094783782959
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (1)_noise.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 301.4533519744873
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (1)_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.28,
+          "processing_time_ms": 260.5481147766113
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (2)_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.155,
+          "processing_time_ms": 269.3920135498047
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (2)_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 277.77695655822754
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (2)_noise.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM",
+          "similarity": 90.625,
+          "tamper_score": 0.075,
+          "processing_time_ms": 289.4015312194824
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (2)_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.155,
+          "processing_time_ms": 309.07511711120605
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.28,
+          "processing_time_ms": 273.9682197570801
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 263.40436935424805
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM_noise.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.115,
+          "processing_time_ms": 298.722505569458
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.28,
+          "processing_time_ms": 267.32444763183594
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.31 AM_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.31 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 277.62913703918457
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.31 AM_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.31 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 277.4007320404053
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.31 AM_noise.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.31 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 313.3103847503662
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.31 AM_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.31 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 278.95617485046387
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (1)_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.155,
+          "processing_time_ms": 276.3020992279053
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (1)_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 264.99366760253906
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (1)_noise.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 311.753511428833
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (1)_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 275.7079601287842
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (2)_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 293.4572696685791
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (2)_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (2)",
+          "similarity": 96.875,
+          "tamper_score": 0.075,
+          "processing_time_ms": 316.31994247436523
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (2)_noise.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 322.5586414337158
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (2)_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 278.83434295654297
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 262.1345520019531
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 290.2553081512451
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM_noise.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM",
+          "similarity": 82.8125,
+          "tamper_score": 0.075,
+          "processing_time_ms": 308.2289695739746
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 259.263277053833
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (1)_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 249.63116645812988
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (1)_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM (1)",
+          "similarity": 98.4375,
+          "tamper_score": 0.075,
+          "processing_time_ms": 326.2364864349365
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (1)_noise.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM (1)",
+          "similarity": 93.75,
+          "tamper_score": 0.075,
+          "processing_time_ms": 291.400671005249
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (1)_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 277.44293212890625
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (2)_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 252.5162696838379
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (2)_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 300.9181022644043
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (2)_noise.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM (2)",
+          "similarity": 92.1875,
+          "tamper_score": 0.075,
+          "processing_time_ms": 321.6979503631592
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (2)_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 266.25871658325195
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 256.2131881713867
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 288.2874011993408
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM_noise.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.075,
+          "processing_time_ms": 267.01927185058594
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM",
+          "similarity": 96.875,
+          "tamper_score": 0.075,
+          "processing_time_ms": 294.1100597381592
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.34 AM_compressed.jpg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.34 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.125,
+          "processing_time_ms": 301.2514114379883
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.34 AM_edges.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.34 AM",
+          "similarity": 96.875,
+          "tamper_score": 0.075,
+          "processing_time_ms": 251.09362602233887
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.34 AM_noise.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.34 AM",
+          "similarity": 95.3125,
+          "tamper_score": 0.075,
+          "processing_time_ms": 293.560266494751
+        },
+        {
+          "modification_level": "heavy_ai_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.34 AM_posterize.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.34 AM",
+          "similarity": 98.4375,
+          "tamper_score": 0.125,
+          "processing_time_ms": 236.39869689941406
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.35 AM_flip.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.35 AM",
+          "similarity": 81.25,
+          "tamper_score": 0.315,
+          "processing_time_ms": 211.62843704223633
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.35 AM_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.35 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.385,
+          "processing_time_ms": 189.93306159973145
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.35 AM_rotate.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (1)",
+          "similarity": 84.375,
+          "tamper_score": 0.315,
+          "processing_time_ms": 198.7457275390625
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (1)_flip.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (2)",
+          "similarity": 84.375,
+          "tamper_score": 0.315,
+          "processing_time_ms": 263.9763355255127
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (1)_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.385,
+          "processing_time_ms": 244.8904514312744
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (1)_rotate.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (1)",
+          "similarity": 71.875,
+          "tamper_score": 0.315,
+          "processing_time_ms": 275.91538429260254
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (2)_flip.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (1)",
+          "similarity": 84.375,
+          "tamper_score": 0.315,
+          "processing_time_ms": 212.8281593322754
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (2)_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.385,
+          "processing_time_ms": 210.27779579162598
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM (2)_rotate.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (1)",
+          "similarity": 75.0,
+          "tamper_score": 0.315,
+          "processing_time_ms": 220.48592567443848
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM_flip.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.535,
+          "processing_time_ms": 236.1304759979248
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.575,
+          "processing_time_ms": 251.0695457458496
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.36 AM_rotate.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.535,
+          "processing_time_ms": 226.5169620513916
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (1)_flip.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM (1)",
+          "similarity": 84.375,
+          "tamper_score": 0.23,
+          "processing_time_ms": 215.78669548034668
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (1)_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.27,
+          "processing_time_ms": 218.0948257446289
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (1)_rotate.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (2)",
+          "similarity": 71.875,
+          "tamper_score": 0.23,
+          "processing_time_ms": 201.23720169067383
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (2)_flip.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (2)",
+          "similarity": 87.5,
+          "tamper_score": 0.32000000000000006,
+          "processing_time_ms": 336.09700202941895
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (2)_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.39000000000000007,
+          "processing_time_ms": 396.0092067718506
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM (2)_rotate.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM",
+          "similarity": 76.5625,
+          "tamper_score": 0.32000000000000006,
+          "processing_time_ms": 384.78827476501465
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM_flip.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM",
+          "similarity": 84.375,
+          "tamper_score": 0.2,
+          "processing_time_ms": 261.9814872741699
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.37 AM_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.27,
+          "processing_time_ms": 260.97917556762695
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (1)_flip.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (1)",
+          "similarity": 93.75,
+          "tamper_score": 0.31000000000000005,
+          "processing_time_ms": 215.7747745513916
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (1)_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.38000000000000006,
+          "processing_time_ms": 220.79801559448242
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (1)_rotate.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (1)",
+          "similarity": 79.6875,
+          "tamper_score": 0.31000000000000005,
+          "processing_time_ms": 216.84980392456055
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (2)_flip.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (2)",
+          "similarity": 87.5,
+          "tamper_score": 0.2,
+          "processing_time_ms": 253.32164764404297
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (2)_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.27,
+          "processing_time_ms": 225.70180892944336
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM (2)_rotate.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM",
+          "similarity": 75.0,
+          "tamper_score": 0.2,
+          "processing_time_ms": 237.95461654663086
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM_flip.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (1)",
+          "similarity": 92.1875,
+          "tamper_score": 0.075,
+          "processing_time_ms": 251.27410888671875
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.145,
+          "processing_time_ms": 275.93445777893066
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.38 AM_rotate.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (1)",
+          "similarity": 89.0625,
+          "tamper_score": 0.075,
+          "processing_time_ms": 250.22006034851074
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (1)_flip.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (2)",
+          "similarity": 95.3125,
+          "tamper_score": 0.395,
+          "processing_time_ms": 348.4077453613281
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (1)_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.465,
+          "processing_time_ms": 336.3332748413086
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (1)_rotate.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (1)",
+          "similarity": 78.125,
+          "tamper_score": 0.395,
+          "processing_time_ms": 395.1723575592041
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (2)_flip.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (2)",
+          "similarity": 71.875,
+          "tamper_score": 0.315,
+          "processing_time_ms": 409.7471237182617
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (2)_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.385,
+          "processing_time_ms": 351.776123046875
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (2)_rotate.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.35 AM",
+          "similarity": 70.3125,
+          "tamper_score": 0.315,
+          "processing_time_ms": 319.6589946746826
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (3)_flip.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM",
+          "similarity": 68.75,
+          "tamper_score": 0.4,
+          "processing_time_ms": 299.61466789245605
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (3)_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (3)",
+          "similarity": 100.0,
+          "tamper_score": 0.47000000000000003,
+          "processing_time_ms": 264.1298770904541
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM (3)_rotate.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM",
+          "similarity": 68.75,
+          "tamper_score": 0.4,
+          "processing_time_ms": 251.9369125366211
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM_flip.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM",
+          "similarity": 68.75,
+          "tamper_score": 0.43000000000000005,
+          "processing_time_ms": 258.81052017211914
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.46,
+          "processing_time_ms": 259.62376594543457
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.39 AM_rotate.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (1)",
+          "similarity": 78.125,
+          "tamper_score": 0.43000000000000005,
+          "processing_time_ms": 291.81432723999023
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.40 AM_flip.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.40 AM",
+          "similarity": 87.5,
+          "tamper_score": 0.28,
+          "processing_time_ms": 367.35081672668457
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.38.40 AM_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.40 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.35000000000000003,
+          "processing_time_ms": 279.6499729156494
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.28 AM_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.28 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.27,
+          "processing_time_ms": 346.57764434814453
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (1)_flip.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.35 AM",
+          "similarity": 71.875,
+          "tamper_score": 0.24,
+          "processing_time_ms": 251.80339813232422
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (1)_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.31,
+          "processing_time_ms": 303.15518379211426
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (1)_rotate.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.34 AM",
+          "similarity": 75.0,
+          "tamper_score": 0.24,
+          "processing_time_ms": 248.93856048583984
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (2)_flip.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.37 AM",
+          "similarity": 73.4375,
+          "tamper_score": 0.22500000000000003,
+          "processing_time_ms": 358.4425449371338
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (2)_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.22500000000000003,
+          "processing_time_ms": 367.24257469177246
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM (2)_rotate.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM (2)",
+          "similarity": 71.875,
+          "tamper_score": 0.22500000000000003,
+          "processing_time_ms": 332.4248790740967
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM_flip.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.39,
+          "processing_time_ms": 336.60888671875
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.42000000000000004,
+          "processing_time_ms": 334.22303199768066
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.29 AM_rotate.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM",
+          "similarity": 93.75,
+          "tamper_score": 0.39,
+          "processing_time_ms": 345.58939933776855
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (1)_flip.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (1)",
+          "similarity": 96.875,
+          "tamper_score": 0.43500000000000005,
+          "processing_time_ms": 325.20341873168945
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (1)_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.465,
+          "processing_time_ms": 420.5131530761719
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (1)_rotate.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (1)",
+          "similarity": 73.4375,
+          "tamper_score": 0.43500000000000005,
+          "processing_time_ms": 369.4620132446289
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (2)_flip.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (1)",
+          "similarity": 95.3125,
+          "tamper_score": 0.195,
+          "processing_time_ms": 342.03028678894043
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (2)_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.195,
+          "processing_time_ms": 378.3736228942871
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM (2)_rotate.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (1)",
+          "similarity": 85.9375,
+          "tamper_score": 0.195,
+          "processing_time_ms": 359.4319820404053
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM_flip.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (1)",
+          "similarity": 89.0625,
+          "tamper_score": 0.28,
+          "processing_time_ms": 315.16003608703613
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.31,
+          "processing_time_ms": 300.7373809814453
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.30 AM_rotate.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (1)",
+          "similarity": 79.6875,
+          "tamper_score": 0.28,
+          "processing_time_ms": 343.26910972595215
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.31 AM_flip.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.31 AM",
+          "similarity": 96.875,
+          "tamper_score": 0.115,
+          "processing_time_ms": 312.9878044128418
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.31 AM_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.31 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.145,
+          "processing_time_ms": 365.04220962524414
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (1)_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.195,
+          "processing_time_ms": 308.73632431030273
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (1)_rotate.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.30 AM (1)",
+          "similarity": 81.25,
+          "tamper_score": 0.195,
+          "processing_time_ms": 286.9851589202881
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (2)_flip.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.39 AM (1)",
+          "similarity": 82.8125,
+          "tamper_score": 0.075,
+          "processing_time_ms": 315.5982494354248
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM (2)_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.145,
+          "processing_time_ms": 277.03404426574707
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM_flip.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.36 AM",
+          "similarity": 85.9375,
+          "tamper_score": 0.2,
+          "processing_time_ms": 274.0967273712158
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.27,
+          "processing_time_ms": 303.62391471862793
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.32 AM_rotate.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM",
+          "similarity": 92.1875,
+          "tamper_score": 0.2,
+          "processing_time_ms": 337.932825088501
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (1)_flip.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.38 AM (2)",
+          "similarity": 71.875,
+          "tamper_score": 0.2,
+          "processing_time_ms": 354.84814643859863
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (1)_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM (1)",
+          "similarity": 100.0,
+          "tamper_score": 0.27,
+          "processing_time_ms": 331.8610191345215
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (1)_rotate.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM (1)",
+          "similarity": 71.875,
+          "tamper_score": 0.2,
+          "processing_time_ms": 270.91097831726074
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (2)_flip.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.38.35 AM",
+          "similarity": 73.4375,
+          "tamper_score": 0.2,
+          "processing_time_ms": 276.9033908843994
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (2)_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM (2)",
+          "similarity": 100.0,
+          "tamper_score": 0.27,
+          "processing_time_ms": 294.0518856048584
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM (2)_rotate.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.29 AM (1)",
+          "similarity": 73.4375,
+          "tamper_score": 0.2,
+          "processing_time_ms": 380.2309036254883
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.33 AM_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.33 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.145,
+          "processing_time_ms": 299.64756965637207
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.34 AM_flip.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.32 AM",
+          "similarity": 71.875,
+          "tamper_score": 0.125,
+          "processing_time_ms": 302.19125747680664
+        },
+        {
+          "modification_level": "extreme_edits",
+          "file": "WhatsApp Image 2025-12-03 at 9.39.34 AM_grayscale.jpeg",
+          "original_owner": "Creator_WhatsApp Image 2025-12-03 at 9.39.34 AM",
+          "similarity": 100.0,
+          "tamper_score": 0.195,
+          "processing_time_ms": 324.6276378631592
+        }
+      ],
+      "overall_detection_rate": 97.70833333333333
+    },
+    "false_positives": {
+      "legitimate_uploads": 0,
+      "wrongly_blocked": 0,
+      "false_positive_rate": 0.0,
+      "examples": []
+    },
+    "edge_cases": {
+      "collage_detection": {
+        "tested": 0,
+        "detected": 0
+      },
+      "partial_crop": {
+        "tested": 0,
+        "detected": 0
+      },
+      "watermark_removal": {
+        "tested": 0,
+        "detected": 0
+      }
+    },
+    "performance": {
+      "avg_processing_time_ms": 210.62305321296057,
+      "max_processing_time_ms": 1899.8987674713135,
+      "min_processing_time_ms": 13.999700546264648,
+      "std_processing_time_ms": 157.85712405538723,
+      "throughput_per_sec": 4.747818364350183,
+      "registered_content_count": 30
+    }
+  },
+  "timestamp": "2025-12-06 09:28:09"
+}

@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Authx Design System - Professional blockchain/security platform theme */
+
+@layer base {
+  :root {
+    /* Core theme colors - Deep blues and purples for trust/security */
+    --background: 220 27% 98%;
+    --foreground: 222 15% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 15% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 15% 15%;
+
+    /* Primary - Deep security blue */
+    --primary: 231 48% 15%;
+    --primary-foreground: 220 27% 98%;
+    --primary-glow: 231 48% 25%;
+
+    /* Secondary - Professional gray-blue */
+    --secondary: 220 15% 95%;
+    --secondary-foreground: 231 48% 15%;
+
+    /* Muted tones */
+    --muted: 220 15% 96%;
+    --muted-foreground: 220 10% 45%;
+
+    /* Accent - Innovation teal */
+    --accent: 191 85% 45%;
+    --accent-foreground: 0 0% 100%;
+    --accent-glow: 191 85% 55%;
+
+    /* Success - Verified green */
+    --success: 142 71% 45%;
+    --success-foreground: 0 0% 100%;
+    --success-glow: 142 71% 55%;
+
+    /* Warning - Attention amber */
+    --warning: 38 92% 50%;
+    --warning-foreground: 38 92% 10%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 15% 90%;
+    --input: 220 15% 92%;
+    --ring: 231 48% 25%;
+
+    --radius: 0.75rem;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--accent-glow)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(var(--card)) 0%, hsl(220 15% 99%) 100%);
+
+    /* Shadows */
+    --shadow-elegant: 0 10px 30px -10px hsl(var(--primary) / 0.2);
+    --shadow-accent: 0 10px 30px -10px hsl(var(--accent) / 0.3);
+    --shadow-success: 0 10px 30px -10px hsl(var(--success) / 0.3);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bouncy: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Dark theme - maintain security/trust feel */
+    --background: 222 25% 8%;
+    --foreground: 220 27% 95%;
+
+    --card: 222 20% 10%;
+    --card-foreground: 220 27% 95%;
+
+    --popover: 222 20% 10%;
+    --popover-foreground: 220 27% 95%;
+
+    /* Primary - Bright security blue for dark mode */
+    --primary: 231 80% 65%;
+    --primary-foreground: 222 25% 8%;
+    --primary-glow: 231 80% 75%;
+
+    --secondary: 222 15% 15%;
+    --secondary-foreground: 220 27% 95%;
+
+    --muted: 222 15% 12%;
+    --muted-foreground: 220 15% 60%;
+
+    /* Accent - Bright teal for dark mode */
+    --accent: 191 85% 55%;
+    --accent-foreground: 222 25% 8%;
+    --accent-glow: 191 85% 65%;
+
+    /* Success - Bright verified green */
+    --success: 142 71% 55%;
+    --success-foreground: 222 25% 8%;
+    --success-glow: 142 71% 65%;
+
+    /* Warning - Bright amber */
+    --warning: 38 92% 60%;
+    --warning-foreground: 222 25% 8%;
+
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 220 27% 95%;
+
+    --border: 222 15% 18%;
+    --input: 222 15% 15%;
+    --ring: 231 80% 65%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Additional dark mode gradients and shadows maintain consistency */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--accent-glow)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(var(--card)) 0%, hsl(222 15% 12%) 100%);
+
+    --shadow-elegant: 0 10px 30px -10px hsl(var(--primary) / 0.3);
+    --shadow-accent: 0 10px 30px -10px hsl(var(--accent) / 0.3);
+    --shadow-success: 0 10px 30px -10px hsl(var(--success) / 0.3);
+
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bouncy: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

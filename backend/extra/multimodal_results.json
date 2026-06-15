@@ -1,0 +1,702 @@
+{
+  "results": {
+    "video": {
+      "theft_detection": {
+        "exact_copies": {
+          "detected": 33,
+          "total": 33,
+          "detection_rate": 100.0
+        },
+        "minor_edits": {
+          "detected": 0,
+          "total": 0,
+          "detection_rate": 0
+        },
+        "moderate_edits": {
+          "detected": 0,
+          "total": 0,
+          "detection_rate": 0
+        },
+        "heavy_edits": {
+          "detected": 0,
+          "total": 0,
+          "detection_rate": 0
+        },
+        "detailed_results": [
+          {
+            "modification_level": "exact_copies",
+            "file": "11934578_3840_2160_60fps_stolen.mp4",
+            "original_owner": "Creator_11934578_3840_2160_60fps",
+            "similarity": 100.0,
+            "processing_time_ms": 99.29823875427246
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "14756870_3840_2160_30fps_stolen.mp4",
+            "original_owner": "Creator_14756870_3840_2160_30fps",
+            "similarity": 100.0,
+            "processing_time_ms": 83.24098587036133
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "14806878_3840_2160_50fps_stolen.mp4",
+            "original_owner": "Creator_14806878_3840_2160_50fps",
+            "similarity": 100.0,
+            "processing_time_ms": 32.80162811279297
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "150875-799327606_tiny_stolen.mp4",
+            "original_owner": "Creator_150875-799327606_tiny",
+            "similarity": 100.0,
+            "processing_time_ms": 7.815837860107422
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "154726-808562497_tiny_stolen.mp4",
+            "original_owner": "Creator_154726-808562497_tiny",
+            "similarity": 100.0,
+            "processing_time_ms": 6.761074066162109
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "184734-873923034_tiny_stolen.mp4",
+            "original_owner": "Creator_184734-873923034_tiny",
+            "similarity": 100.0,
+            "processing_time_ms": 7.64012336730957
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "18775889-uhd_3840_2160_25fps_stolen.mp4",
+            "original_owner": "Creator_18775889-uhd_3840_2160_25fps",
+            "similarity": 100.0,
+            "processing_time_ms": 22.664785385131836
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "199788-911378451_tiny_stolen.mp4",
+            "original_owner": "Creator_199788-911378451_tiny",
+            "similarity": 100.0,
+            "processing_time_ms": 6.285429000854492
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "202368-918049003_tiny_stolen.mp4",
+            "original_owner": "Creator_202368-918049003_tiny",
+            "similarity": 100.0,
+            "processing_time_ms": 1.0809898376464844
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "202560-918431383_tiny_stolen.mp4",
+            "original_owner": "Creator_202560-918431383_tiny",
+            "similarity": 100.0,
+            "processing_time_ms": 9.991645812988281
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "202693-918730367_tiny_stolen.mp4",
+            "original_owner": "Creator_202693-918730367_tiny",
+            "similarity": 100.0,
+            "processing_time_ms": 5.047798156738281
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "202982-919365848_tiny_stolen.mp4",
+            "original_owner": "Creator_202982-919365848_tiny",
+            "similarity": 100.0,
+            "processing_time_ms": 12.02845573425293
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "202987-919379330_tiny_stolen.mp4",
+            "original_owner": "Creator_202987-919379330_tiny",
+            "similarity": 100.0,
+            "processing_time_ms": 5.03230094909668
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "203974-923133846_tiny_stolen.mp4",
+            "original_owner": "Creator_203974-923133846_tiny",
+            "similarity": 100.0,
+            "processing_time_ms": 9.424209594726562
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "206294_tiny_stolen.mp4",
+            "original_owner": "Creator_206294_tiny",
+            "similarity": 100.0,
+            "processing_time_ms": 6.597280502319336
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "212404_tiny_stolen.mp4",
+            "original_owner": "Creator_212404_tiny",
+            "similarity": 100.0,
+            "processing_time_ms": 7.717370986938477
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "213616_tiny_stolen.mp4",
+            "original_owner": "Creator_213616_tiny",
+            "similarity": 100.0,
+            "processing_time_ms": 11.2457275390625
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "214669_small_stolen.mp4",
+            "original_owner": "Creator_214669_small",
+            "similarity": 100.0,
+            "processing_time_ms": 3.995180130004883
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "216696_tiny_stolen.mp4",
+            "original_owner": "Creator_216696_tiny",
+            "similarity": 100.0,
+            "processing_time_ms": 10.448932647705078
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "221180_tiny_stolen.mp4",
+            "original_owner": "Creator_221180_tiny",
+            "similarity": 100.0,
+            "processing_time_ms": 0.0
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "228847_tiny_stolen.mp4",
+            "original_owner": "Creator_228847_tiny",
+            "similarity": 100.0,
+            "processing_time_ms": 37.476301193237305
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "232538_tiny_stolen.mp4",
+            "original_owner": "Creator_232538_tiny",
+            "similarity": 100.0,
+            "processing_time_ms": 0.0
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "233024_tiny_stolen.mp4",
+            "original_owner": "Creator_233024_tiny",
+            "similarity": 100.0,
+            "processing_time_ms": 7.976531982421875
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "240531_tiny_stolen.mp4",
+            "original_owner": "Creator_240531_tiny",
+            "similarity": 100.0,
+            "processing_time_ms": 5.791902542114258
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "245932_tiny_stolen.mp4",
+            "original_owner": "Creator_245932_tiny",
+            "similarity": 100.0,
+            "processing_time_ms": 0.8895397186279297
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "253998_tiny_stolen.mp4",
+            "original_owner": "Creator_253998_tiny",
+            "similarity": 100.0,
+            "processing_time_ms": 0.0
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "275052_tiny_stolen.mp4",
+            "original_owner": "Creator_275052_tiny",
+            "similarity": 100.0,
+            "processing_time_ms": 14.780521392822266
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "275498_tiny_stolen.mp4",
+            "original_owner": "Creator_275498_tiny",
+            "similarity": 100.0,
+            "processing_time_ms": 5.016088485717773
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "28707-371213524_tiny_stolen.mp4",
+            "original_owner": "Creator_28707-371213524_tiny",
+            "similarity": 100.0,
+            "processing_time_ms": 4.889011383056641
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "293788_tiny_stolen.mp4",
+            "original_owner": "Creator_293788_tiny",
+            "similarity": 100.0,
+            "processing_time_ms": 11.319875717163086
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "298103_tiny_stolen.mp4",
+            "original_owner": "Creator_298103_tiny",
+            "similarity": 100.0,
+            "processing_time_ms": 0.0
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "308073_tiny_stolen.mp4",
+            "original_owner": "Creator_308073_tiny",
+            "similarity": 100.0,
+            "processing_time_ms": 12.080669403076172
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "50109-459915579_tiny_stolen.mp4",
+            "original_owner": "Creator_50109-459915579_tiny",
+            "similarity": 100.0,
+            "processing_time_ms": 8.281946182250977
+          }
+        ],
+        "overall_detection_rate": 100.0
+      },
+      "false_positives": {
+        "legitimate_uploads": 0,
+        "wrongly_blocked": 0,
+        "false_positive_rate": 0.0,
+        "examples": []
+      },
+      "performance": {
+        "avg_processing_time_ms": 13.867284312392727,
+        "median_processing_time_ms": 7.717370986938477,
+        "max_processing_time_ms": 99.29823875427246,
+        "min_processing_time_ms": 0.0,
+        "throughput_per_sec": 72.1121726123646,
+        "registered_count": 33
+      }
+    },
+    "audio": {
+      "theft_detection": {
+        "exact_copies": {
+          "detected": 23,
+          "total": 23,
+          "detection_rate": 100.0
+        },
+        "minor_edits": {
+          "detected": 0,
+          "total": 0,
+          "detection_rate": 0
+        },
+        "moderate_edits": {
+          "detected": 0,
+          "total": 0,
+          "detection_rate": 0
+        },
+        "heavy_edits": {
+          "detected": 0,
+          "total": 0,
+          "detection_rate": 0
+        },
+        "detailed_results": [
+          {
+            "modification_level": "exact_copies",
+            "file": "3536__luffy__record-scratch_stolen.wav",
+            "original_owner": "Creator_3536__luffy__record-scratch",
+            "similarity": 100.0,
+            "processing_time_ms": 48.48456382751465
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "390463__iut_paris8__akrich_antoine_2016_2017_couleedelave_stolen.mp3",
+            "original_owner": "Creator_390463__iut_paris8__akrich_antoine_2016_2017_couleedelave",
+            "similarity": 100.0,
+            "processing_time_ms": 17.949581146240234
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "835648__sieuamthanh__bun-thung-bia-hit-beer-box_stolen.wav",
+            "original_owner": "Creator_835648__sieuamthanh__bun-thung-bia-hit-beer-box",
+            "similarity": 100.0,
+            "processing_time_ms": 22.8421688079834
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "835654__frontmusic__91-bpm-synth-loop-korg_stolen.wav",
+            "original_owner": "Creator_835654__frontmusic__91-bpm-synth-loop-korg",
+            "similarity": 100.0,
+            "processing_time_ms": 27.932405471801758
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "835656__r2dxu__radio-noise-on-short-waves-without-signals_stolen.wav",
+            "original_owner": "Creator_835656__r2dxu__radio-noise-on-short-waves-without-signals",
+            "similarity": 100.0,
+            "processing_time_ms": 33.45847129821777
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "835659__walkingwithmicrophones__the-headlamp-is-blaring-like-a-siren_stolen.wav",
+            "original_owner": "Creator_835659__walkingwithmicrophones__the-headlamp-is-blaring-like-a-siren",
+            "similarity": 100.0,
+            "processing_time_ms": 37.430763244628906
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "835660__tommasobanfi__campanacci-mucche-cow-bells_stolen.mp3",
+            "original_owner": "Creator_835660__tommasobanfi__campanacci-mucche-cow-bells",
+            "similarity": 100.0,
+            "processing_time_ms": 18.207311630249023
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "835700__nirak-k__voicemail-spam (1)_stolen.wav",
+            "original_owner": "Creator_835700__nirak-k__voicemail-spam (1)",
+            "similarity": 100.0,
+            "processing_time_ms": 43.91765594482422
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "835700__nirak-k__voicemail-spam_stolen.wav",
+            "original_owner": "Creator_835700__nirak-k__voicemail-spam (1)",
+            "similarity": 100.0,
+            "processing_time_ms": 33.12397003173828
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "835742__smekk__funky-hip-hop-loop-85bpm (1)_stolen.wav",
+            "original_owner": "Creator_835742__smekk__funky-hip-hop-loop-85bpm (1)",
+            "similarity": 100.0,
+            "processing_time_ms": 33.57386589050293
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "835742__smekk__funky-hip-hop-loop-85bpm_stolen.wav",
+            "original_owner": "Creator_835742__smekk__funky-hip-hop-loop-85bpm (1)",
+            "similarity": 100.0,
+            "processing_time_ms": 21.88849449157715
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "835772__user10247878__quietest-place-in-barcelona_stolen.m4a",
+            "original_owner": "Creator_835772__user10247878__quietest-place-in-barcelona",
+            "similarity": 100.0,
+            "processing_time_ms": 11.11459732055664
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "835849__chris5s__dog-drinking_stolen.wav",
+            "original_owner": "Creator_835849__chris5s__dog-drinking",
+            "similarity": 100.0,
+            "processing_time_ms": 36.96489334106445
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "835850__chris5s__dog-siren-howl_stolen.mp3",
+            "original_owner": "Creator_835850__chris5s__dog-siren-howl",
+            "similarity": 100.0,
+            "processing_time_ms": 19.136905670166016
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "835851__chris5s__dog-snorts-feet-on-hardwood-floor_stolen.wav",
+            "original_owner": "Creator_835851__chris5s__dog-snorts-feet-on-hardwood-floor",
+            "similarity": 100.0,
+            "processing_time_ms": 61.31148338317871
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "835961__pinklemonadesound__long-victory_stolen.wav",
+            "original_owner": "Creator_835961__pinklemonadesound__long-victory",
+            "similarity": 100.0,
+            "processing_time_ms": 33.22553634643555
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "835969__willerworld__eating_hard_crunchy_object_soundeffect_stolen.wav",
+            "original_owner": "Creator_835969__willerworld__eating_hard_crunchy_object_soundeffect",
+            "similarity": 100.0,
+            "processing_time_ms": 41.419267654418945
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "835970__willerworld__lighter_stolen.mp3",
+            "original_owner": "Creator_835970__willerworld__lighter",
+            "similarity": 100.0,
+            "processing_time_ms": 45.63617706298828
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "836108__looplicator__145-bpm-industrial-drum-loop-15689-wav_stolen.wav",
+            "original_owner": "Creator_836108__looplicator__145-bpm-industrial-drum-loop-15689-wav",
+            "similarity": 100.0,
+            "processing_time_ms": 54.136037826538086
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "836213__looplicator__138-bpm-industrial-drum-loop-15694-wav_stolen.wav",
+            "original_owner": "Creator_836213__looplicator__138-bpm-industrial-drum-loop-15694-wav",
+            "similarity": 100.0,
+            "processing_time_ms": 54.894447326660156
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "836218__looplicator__128-bpm-industrial-drum-loop-15696-wav_stolen.wav",
+            "original_owner": "Creator_836218__looplicator__128-bpm-industrial-drum-loop-15696-wav",
+            "similarity": 100.0,
+            "processing_time_ms": 44.501543045043945
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "836292__looplicator__96-bpm-industrial-drum-loop-15707-wav_stolen.wav",
+            "original_owner": "Creator_836292__looplicator__96-bpm-industrial-drum-loop-15707-wav",
+            "similarity": 100.0,
+            "processing_time_ms": 41.361331939697266
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "836294__looplicator__105-bpm-industrial-drum-loop-15708-wav_stolen.wav",
+            "original_owner": "Creator_836294__looplicator__105-bpm-industrial-drum-loop-15708-wav",
+            "similarity": 100.0,
+            "processing_time_ms": 33.147573471069336
+          }
+        ],
+        "overall_detection_rate": 100.0
+      },
+      "false_positives": {
+        "legitimate_uploads": 0,
+        "wrongly_blocked": 0,
+        "false_positive_rate": 0.0,
+        "examples": []
+      },
+      "performance": {
+        "avg_processing_time_ms": 35.463436790134594,
+        "median_processing_time_ms": 33.57386589050293,
+        "max_processing_time_ms": 61.31148338317871,
+        "min_processing_time_ms": 11.11459732055664,
+        "throughput_per_sec": 28.1980566609434,
+        "registered_count": 23
+      }
+    },
+    "text": {
+      "theft_detection": {
+        "exact_copies": {
+          "detected": 26,
+          "total": 26,
+          "detection_rate": 100.0
+        },
+        "minor_edits": {
+          "detected": 0,
+          "total": 0,
+          "detection_rate": 0
+        },
+        "moderate_edits": {
+          "detected": 0,
+          "total": 0,
+          "detection_rate": 0
+        },
+        "heavy_edits": {
+          "detected": 0,
+          "total": 0,
+          "detection_rate": 0
+        },
+        "detailed_results": [
+          {
+            "modification_level": "exact_copies",
+            "file": "10_stolen.pdf",
+            "original_owner": "Creator_10",
+            "similarity": 100.0,
+            "processing_time_ms": 49.880027770996094
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "11_stolen.pdf",
+            "original_owner": "Creator_11",
+            "similarity": 100.0,
+            "processing_time_ms": 36.264896392822266
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "12_stolen.pdf",
+            "original_owner": "Creator_12",
+            "similarity": 100.0,
+            "processing_time_ms": 47.39117622375488
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "13_stolen.pdf",
+            "original_owner": "Creator_13",
+            "similarity": 100.0,
+            "processing_time_ms": 48.57659339904785
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "14_stolen.pdf",
+            "original_owner": "Creator_14",
+            "similarity": 100.0,
+            "processing_time_ms": 24.890899658203125
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "15_stolen.pdf",
+            "original_owner": "Creator_15",
+            "similarity": 100.0,
+            "processing_time_ms": 41.717529296875
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "16_stolen.pdf",
+            "original_owner": "Creator_16",
+            "similarity": 100.0,
+            "processing_time_ms": 50.32944679260254
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "17_stolen.pdf",
+            "original_owner": "Creator_17",
+            "similarity": 100.0,
+            "processing_time_ms": 33.800363540649414
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "18_stolen.pdf",
+            "original_owner": "Creator_18",
+            "similarity": 100.0,
+            "processing_time_ms": 49.839019775390625
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "19_stolen.pdf",
+            "original_owner": "Creator_19",
+            "similarity": 100.0,
+            "processing_time_ms": 35.60972213745117
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "1_stolen.pdf",
+            "original_owner": "Creator_1",
+            "similarity": 100.0,
+            "processing_time_ms": 47.300100326538086
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "20_stolen.pdf",
+            "original_owner": "Creator_20",
+            "similarity": 100.0,
+            "processing_time_ms": 50.10247230529785
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "21_stolen.pdf",
+            "original_owner": "Creator_21",
+            "similarity": 100.0,
+            "processing_time_ms": 49.1948127746582
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "22_stolen.pdf",
+            "original_owner": "Creator_22",
+            "similarity": 100.0,
+            "processing_time_ms": 38.928985595703125
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "23_stolen.pdf",
+            "original_owner": "Creator_23",
+            "similarity": 100.0,
+            "processing_time_ms": 44.16322708129883
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "24_stolen.pdf",
+            "original_owner": "Creator_24",
+            "similarity": 100.0,
+            "processing_time_ms": 34.984588623046875
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "25_stolen.pdf",
+            "original_owner": "Creator_25",
+            "similarity": 100.0,
+            "processing_time_ms": 30.557632446289062
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "26_stolen.pdf",
+            "original_owner": "Creator_26",
+            "similarity": 100.0,
+            "processing_time_ms": 49.617767333984375
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "2_stolen.pdf",
+            "original_owner": "Creator_2",
+            "similarity": 100.0,
+            "processing_time_ms": 39.09039497375488
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "3_stolen.pdf",
+            "original_owner": "Creator_3",
+            "similarity": 100.0,
+            "processing_time_ms": 60.79554557800293
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "4_stolen.pdf",
+            "original_owner": "Creator_4",
+            "similarity": 100.0,
+            "processing_time_ms": 57.13224411010742
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "5_stolen.pdf",
+            "original_owner": "Creator_5",
+            "similarity": 100.0,
+            "processing_time_ms": 59.39006805419922
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "6_stolen.pdf",
+            "original_owner": "Creator_6",
+            "similarity": 100.0,
+            "processing_time_ms": 54.086923599243164
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "7_stolen.pdf",
+            "original_owner": "Creator_7",
+            "similarity": 100.0,
+            "processing_time_ms": 51.633358001708984
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "8_stolen.pdf",
+            "original_owner": "Creator_8",
+            "similarity": 100.0,
+            "processing_time_ms": 32.93943405151367
+          },
+          {
+            "modification_level": "exact_copies",
+            "file": "9_stolen.pdf",
+            "original_owner": "Creator_9",
+            "similarity": 100.0,
+            "processing_time_ms": 33.0655574798584
+          }
+        ],
+        "overall_detection_rate": 100.0
+      },
+      "false_positives": {
+        "legitimate_uploads": 0,
+        "wrongly_blocked": 0,
+        "false_positive_rate": 0.0,
+        "examples": []
+      },
+      "performance": {
+        "avg_processing_time_ms": 44.2801072047307,
+        "median_processing_time_ms": 47.345638275146484,
+        "max_processing_time_ms": 60.79554557800293,
+        "min_processing_time_ms": 24.890899658203125,
+        "throughput_per_sec": 22.583504492806746,
+        "registered_count": 26
+      }
+    }
+  },
+  "timestamp": "2025-12-05 18:44:10"
+}
