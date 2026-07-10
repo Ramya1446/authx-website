@@ -1,5 +1,5 @@
 """
-Fix database schema to add missing columns
+db.py - Database schema management for Authx
 """
 
 import sqlite3

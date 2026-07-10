@@ -5,6 +5,7 @@ Multi-modal: images, audio, video, and text documents
 """
 
 import io
+from pydoc import text
 import re
 import math
 import struct
@@ -603,17 +604,6 @@ class EnhancedAITamperingDetector:
     # ═══════════════════════════════════════════
 
     def _analyze_video(self, file_bytes: bytes, content_type: str) -> Dict:
-        """
-        Detect AI-generated or tampered video.
-
-        Six analysis layers:
-          1. Byte entropy pattern      – container-level structure anomalies
-          2. Keyframe visual analysis  – sample frames with image detector
-          3. Temporal consistency      – real videos have natural inter-frame variation
-          4. Codec signature           – checks for deepfake / AI generation watermarks
-          5. Resolution / bitrate fit  – AI video often has unusual compression ratios
-          6. Color space consistency   – AI video has atypical color distributions
-        """
         try:
             scores = {}
 
@@ -621,29 +611,57 @@ class EnhancedAITamperingDetector:
             scores["codec_signature"] = self._video_codec_signature(file_bytes)
             scores["bitrate_fit"]     = self._video_bitrate_fit(file_bytes)
 
-            # Try to extract and analyse frames
-            frame_score, frame_artifacts, temporal_score = self._video_frame_analysis(file_bytes)
-            scores["keyframe_visual"]  = frame_score
-            scores["temporal_consistency"] = temporal_score
+        # Extract frames for all frame-level analyses
+            frames, fps, total = self._extract_frames_list(file_bytes)
 
+            if frames:
+            # Existing: per-frame image analysis + temporal
+                frame_score, frame_artifacts, temporal_score = self._video_frame_analysis_from_frames(frames)
+                scores["keyframe_visual"]       = frame_score
+                scores["temporal_consistency"]  = temporal_score
+
+            # NEW: ELA on keyframes — detects re-compression from editing
+                scores["ela_score"]             = self._video_ela_score(frames)
+
+            # NEW: Noise consistency across frames — AI video has unnaturally
+            # uniform noise floor between frames
+                scores["noise_consistency"]     = self._video_noise_consistency(frames)
+
+            # NEW: GAN frequency per frame — same DCT check as image
+                scores["gan_frequency"]         = self._video_gan_frequency(frames)
+
+            # NEW: Optical flow irregularity — AI-generated video has
+            # unnaturally smooth or static flow patterns
+                scores["optical_flow"]          = self._video_optical_flow(frames)
+            else:
+                for k in ["keyframe_visual", "temporal_consistency", "ela_score",
+                      "noise_consistency", "gan_frequency", "optical_flow"]:
+                    scores[k] = 0.0
+                frame_artifacts = []
+
+        # Updated weights — more balanced now that we have 9 signals
             tamper_probability = (
-                scores["byte_entropy"]         * 0.10
-                + scores["codec_signature"]    * 0.20
-                + scores["bitrate_fit"]        * 0.15
-                + scores["keyframe_visual"]    * 0.35
-                + scores["temporal_consistency"] * 0.20
+                scores["byte_entropy"]        * 0.05 +
+                scores["codec_signature"]     * 0.10 +
+                scores["bitrate_fit"]         * 0.05 +
+                scores["keyframe_visual"]     * 0.20 +
+                scores["temporal_consistency"]* 0.15 +
+                scores["ela_score"]           * 0.15 +
+                scores["noise_consistency"]   * 0.10 +
+                scores["gan_frequency"]       * 0.10 +
+                scores["optical_flow"]        * 0.10
             )
 
             confidence         = self._score_confidence(scores)
             detected_artifacts = self._identify_video_artifacts(scores, frame_artifacts)
 
             return {
-                "tamper_probability": float(min(tamper_probability, 1.0)),
-                "confidence":         float(confidence),
-                "detected_artifacts": detected_artifacts,
-                "is_camera_photo":    False,
-                "modality":           "video",
-                "analysis_details":   {k: float(v) for k, v in scores.items()},
+            "tamper_probability": float(min(tamper_probability, 1.0)),
+            "confidence":         float(confidence),
+            "detected_artifacts": detected_artifacts,
+            "is_camera_photo":    False,
+            "modality":           "video",
+            "analysis_details":   {k: float(v) for k, v in scores.items()},
             }
         except Exception as e:
             print(f"⚠️  Video analysis error: {e}")
@@ -778,62 +796,291 @@ class EnhancedAITamperingDetector:
                 except Exception: pass
 
     def _identify_video_artifacts(self, scores: Dict[str, float],
-                                   frame_artifacts: List[str]) -> List[str]:
+                               frame_artifacts: List[str]) -> List[str]:
         artifacts = list(frame_artifacts)
-        if scores.get("byte_entropy", 0)         > 0.5: artifacts.append("abnormal_byte_entropy")
-        if scores.get("codec_signature", 0)      > 0.5: artifacts.append("ai_tool_codec_signature")
-        if scores.get("bitrate_fit", 0)          > 0.3: artifacts.append("unusual_bitrate_profile")
-        if scores.get("temporal_consistency", 0) > 0.5: artifacts.append("low_temporal_variation")
+        if scores.get("byte_entropy", 0)        > 0.5: artifacts.append("abnormal_byte_entropy")
+        if scores.get("codec_signature", 0)     > 0.5: artifacts.append("ai_tool_codec_signature")
+        if scores.get("bitrate_fit", 0)         > 0.3: artifacts.append("unusual_bitrate_profile")
+        if scores.get("temporal_consistency", 0)> 0.5: artifacts.append("low_temporal_variation")
+        if scores.get("ela_score", 0)           > 0.5: artifacts.append("ela_recompression_artifact")
+        if scores.get("noise_consistency", 0)   > 0.5: artifacts.append("uniform_noise_floor")
+        if scores.get("gan_frequency", 0)       > 0.5: artifacts.append("gan_frequency_signature")
+        if scores.get("optical_flow", 0)        > 0.5: artifacts.append("unnatural_optical_flow")
         return list(set(artifacts))
+    
+    def _extract_frames_list(self, file_bytes: bytes):
+    
+        tmp_path = None
+        cap = None
+        try:
+            with tempfile.NamedTemporaryFile(suffix=".mp4", delete=False) as tmp:
+                tmp.write(file_bytes)
+                tmp_path = tmp.name
 
+            cap = cv2.VideoCapture(tmp_path)
+            if not cap.isOpened():
+                return [], 25.0, 0
+
+            total = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+            fps   = cap.get(cv2.CAP_PROP_FPS) or 25.0
+            if total <= 0:
+                return [], fps, 0
+
+            n_samples   = min(12, total)
+            sample_idxs = [int(i * total / n_samples) for i in range(n_samples)]
+            frames = []
+
+            for idx in sample_idxs:
+                cap.set(cv2.CAP_PROP_POS_FRAMES, idx)
+                ret, frame = cap.read()
+                if ret:
+                    frames.append(frame)
+
+            return frames, fps, total
+
+        except Exception:
+            return [], 25.0, 0
+        finally:
+            if cap:
+                try: cap.release()
+                except: pass
+            if tmp_path and os.path.exists(tmp_path):
+                try: os.unlink(tmp_path)
+                except: pass
+    def _video_frame_analysis_from_frames(self, frames):
+    
+        try:
+            frame_scores   = []
+            all_artifacts  = []
+            temporal_diffs = []
+            prev_gray      = None
+
+            for frame in frames:
+                frame_bytes = cv2.imencode(".png", frame)[1].tobytes()
+                result      = self._analyze_image(frame_bytes)
+                frame_scores.append(result["tamper_probability"])
+                all_artifacts.extend(result.get("detected_artifacts", []))
+
+                gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+                if prev_gray is not None:
+                    diff = np.mean(np.abs(
+                        gray.astype(np.float32) - prev_gray.astype(np.float32)
+                    ))
+                    temporal_diffs.append(diff)
+                prev_gray = gray
+
+            mean_frame_score = float(np.mean(frame_scores)) if frame_scores else 0.0
+
+            temporal_score = 0.0
+            if temporal_diffs:
+                std_diff  = np.std(temporal_diffs)
+                mean_diff = np.mean(temporal_diffs)
+                if mean_diff < 0.5:   temporal_score = 0.8
+                elif std_diff < 1.0:  temporal_score = 0.5
+                elif std_diff < 3.0:  temporal_score = 0.2
+
+            return mean_frame_score, list(set(all_artifacts)), temporal_score
+
+        except Exception:
+            return 0.0, [], 0.0
+    def _video_ela_score(self, frames: list) -> float:
+    
+        try:
+            ela_scores = []
+            for frame in frames[:6]:
+                rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+                pil = Image.fromarray(rgb)
+
+                buf = io.BytesIO()
+                pil.save(buf, format="JPEG", quality=75)
+                buf.seek(0)
+                recomp = np.array(Image.open(buf).convert("RGB"))
+
+                diff    = np.abs(rgb.astype(np.float32) - recomp.astype(np.float32))
+                ela_map = diff.mean(axis=2)
+                gm      = ela_map.mean()
+                gs      = ela_map.std()
+
+            # Count anomalous patches
+                patch = 32
+                h, w  = ela_map.shape
+                anomaly = sum(
+                    1 for y in range(0, h - patch, patch)
+                    for x in range(0, w - patch, patch)
+                    if ela_map[y:y+patch, x:x+patch].mean() > gm + 2.5 * gs
+                )
+                total_patches = max(1, (h // patch) * (w // patch))
+                ela_scores.append(min(anomaly / total_patches * 3, 1.0))
+
+            return float(np.mean(ela_scores)) if ela_scores else 0.0
+
+        except Exception:
+            return 0.0
+    def _video_noise_consistency(self, frames: list) -> float:
+    
+        try:
+            noise_stds = []
+            for frame in frames:
+                gray    = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY).astype(np.float32)
+                blurred = cv2.GaussianBlur(gray, (5, 5), 0)
+                residual = gray - blurred
+                noise_stds.append(float(np.std(residual)))
+
+            if len(noise_stds) < 3:
+                return 0.0
+
+            mean_noise = np.mean(noise_stds)
+            std_noise  = np.std(noise_stds)
+
+        # Very low inter-frame noise variance = AI-generated
+        # (real cameras vary in noise due to ISO, motion, lighting)
+            cv = std_noise / (mean_noise + 1e-6)
+            score = 0.0
+            if cv < 0.05:   score = 0.8   # Near-identical noise = synthetic
+            elif cv < 0.10: score = 0.5
+            elif cv < 0.15: score = 0.2
+
+        # Also flag if noise is globally very low (overly smooth video)
+            if mean_noise < 1.0:
+                score = max(score, 0.6)
+
+            return min(score, 1.0)
+
+        except Exception:
+            return 0.0
+
+
+    def _video_gan_frequency(self, frames: list) -> float:
+    
+        try:
+            freq_scores = []
+            for frame in frames[:8]:
+                gray    = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+                resized = cv2.resize(gray, (256, 256))
+                dct     = cv2.dct(np.float32(resized))
+                hi_energy = np.sum(np.abs(dct[128:, 128:]))
+                total     = np.sum(np.abs(dct)) + 1e-10
+                ratio     = hi_energy / total
+
+                if ratio < 0.06:   freq_scores.append(0.9)
+                elif ratio < 0.10: freq_scores.append(0.6)
+                elif ratio < 0.13: freq_scores.append(0.3)
+                else:               freq_scores.append(0.0)
+
+            return float(np.mean(freq_scores)) if freq_scores else 0.0
+
+        except Exception:
+            return 0.0
+
+
+    def _video_optical_flow(self, frames: list) -> float:
+        try:
+            if len(frames) < 3:
+                return 0.0
+
+            flow_magnitudes = []
+            flow_stds       = []
+
+            for i in range(1, min(len(frames), 8)):
+                prev = cv2.cvtColor(frames[i-1], cv2.COLOR_BGR2GRAY)
+                curr = cv2.cvtColor(frames[i],   cv2.COLOR_BGR2GRAY)
+
+            # Resize for speed — optical flow on 320×240 is fine
+                prev_s = cv2.resize(prev, (320, 240))
+                curr_s = cv2.resize(curr, (320, 240))
+
+                flow = cv2.calcOpticalFlowFarneback(
+                    prev_s, curr_s, None,
+                    pyr_scale=0.5, levels=3, winsize=15,
+                    iterations=3, poly_n=5, poly_sigma=1.2, flags=0
+                )
+
+                mag, _ = cv2.cartToPolar(flow[..., 0], flow[..., 1])
+                flow_magnitudes.append(float(np.mean(mag)))
+                flow_stds.append(float(np.std(mag)))
+
+            if not flow_magnitudes:
+                return 0.0
+
+            mean_mag = np.mean(flow_magnitudes)
+            std_mag  = np.std(flow_magnitudes)
+            mean_std = np.mean(flow_stds)
+
+            score = 0.0
+
+        # Near-zero flow throughout = static/frozen AI background
+            if mean_mag < 0.3:
+                score += 0.5
+
+        # Unnaturally uniform flow magnitude across frames = AI loop
+            cv_flow = std_mag / (mean_mag + 1e-6)
+            if cv_flow < 0.15:   score += 0.4
+            elif cv_flow < 0.25: score += 0.2
+
+        # Very uniform spatial flow (low std within each frame) = CGI
+            if mean_std < 0.5:   score += 0.3
+            elif mean_std < 1.0: score += 0.1
+
+            return min(score, 1.0)
+
+        except Exception as e:
+            print(f"[OptFlow] {e}")
+            return 0.0
     # ═══════════════════════════════════════════
     #  TEXT / DOCUMENT ANALYSIS
     # ═══════════════════════════════════════════
 
     def _analyze_text(self, file_bytes: bytes) -> Dict:
-        """
-        Detect AI-generated or heavily AI-edited text documents.
-
-        Six analysis layers:
-          1. Perplexity proxy        – burstiness / sentence-length variance
-          2. Vocabulary richness     – AI text is often lexically uniform
-          3. Punctuation patterns    – AI overuses certain punctuation patterns
-          4. Sentence structure      – AI text has unnaturally consistent sentence lengths
-          5. Burstiness              – humans write in bursts; AI is temporally flat
-          6. N-gram repetition       – AI models repeat phrases more than humans
-        """
+    
         try:
             text = self._decode_text(file_bytes)
+
+        # If PDF, extract properly
+            if b'%PDF' in file_bytes[:8]:
+                try:
+                    import fitz
+                    doc = fitz.open(stream=file_bytes, filetype="pdf")
+                    text = ""
+                    for page in doc:
+                        text += page.get_text()
+                    doc.close()
+                except Exception:
+                    pass
+
             if not text or len(text.strip()) < 50:
                 return self._default_analysis("text")
 
             scores = {}
-            scores["sentence_uniformity"] = self._text_sentence_uniformity(text)
+            scores["sentence_uniformity"]  = self._text_sentence_uniformity(text)
             scores["vocabulary_richness"]  = self._text_vocabulary_richness(text)
             scores["punctuation_pattern"]  = self._text_punctuation_pattern(text)
             scores["burstiness"]           = self._text_burstiness(text)
             scores["ngram_repetition"]     = self._text_ngram_repetition(text)
             scores["paragraph_uniformity"] = self._text_paragraph_uniformity(text)
+            scores["lexical_density"]      = self._text_lexical_density(text)
+            scores["transition_overuse"]   = self._text_transition_overuse(text)
 
             tamper_probability = (
-                scores["sentence_uniformity"]  * 0.25
-                + scores["vocabulary_richness"] * 0.20
-                + scores["punctuation_pattern"] * 0.15
-                + scores["burstiness"]          * 0.20
-                + scores["ngram_repetition"]    * 0.15
-                + scores["paragraph_uniformity"] * 0.05
+                scores["sentence_uniformity"]  * 0.20 +
+                scores["vocabulary_richness"]  * 0.10 +
+                scores["punctuation_pattern"]  * 0.10 +
+                scores["burstiness"]           * 0.20 +
+                scores["ngram_repetition"]     * 0.10 +
+                scores["paragraph_uniformity"] * 0.05 +
+                scores["lexical_density"]      * 0.10 +
+                scores["transition_overuse"]   * 0.15
             )
 
             confidence         = self._score_confidence(scores)
             detected_artifacts = self._identify_text_artifacts(scores)
 
             return {
-                "tamper_probability": float(min(tamper_probability, 1.0)),
-                "confidence":         float(confidence),
-                "detected_artifacts": detected_artifacts,
-                "is_camera_photo":    False,
-                "modality":           "text",
-                "analysis_details":   {k: float(v) for k, v in scores.items()},
+            "tamper_probability": float(min(tamper_probability, 1.0)),
+            "confidence":         float(confidence),
+            "detected_artifacts": detected_artifacts,
+            "is_camera_photo":    False,
+            "modality":           "text",
+            "analysis_details":   {k: float(v) for k, v in scores.items()},
             }
         except Exception as e:
             print(f"⚠️  Text analysis error: {e}")
@@ -932,7 +1179,76 @@ class EnhancedAITamperingDetector:
             return min(score, 1.0)
         except Exception:
             return 0.0
+    
+    def _text_lexical_density(self, text: str) -> float:
+    
+        try:
+        # Simple content word proxy — words longer than 6 chars
+        # tend to be content words (nouns, verbs, adjectives)
+            words = re.findall(r'\b\w+\b', text.lower())
+            if len(words) < 30:
+                return 0.0
 
+            content_words = [w for w in words if len(w) > 6]
+            density = len(content_words) / len(words)
+
+        # Normal academic text: 0.35–0.50
+        # AI-generated academic text: often > 0.55 (over-dense)
+        # Casual human text: often < 0.30
+            score = 0.0
+            if density > 0.58:   score = 0.8
+            elif density > 0.52: score = 0.5
+            elif density > 0.47: score = 0.2
+            return score
+        except Exception:
+            return 0.0
+
+
+    def _text_transition_overuse(self, text: str) -> float:
+    
+        try:
+            words = text.lower().split()
+            if len(words) < 30:
+                return 0.0
+
+        # Phrases ChatGPT uses far more than humans
+            ai_transitions = [
+            "furthermore", "moreover", "additionally",
+            "in conclusion", "to summarize", "in summary",
+            "it is important to note", "it is worth noting",
+            "it should be noted", "notably", "significantly",
+            "it is crucial", "it is essential", "plays a crucial role",
+            "plays an important role", "in the realm of",
+            "delve into", "dive into", "shed light on",
+            "it is evident", "it is clear that",
+            "as mentioned", "as previously mentioned",
+            "as stated", "as noted", "as discussed",
+            "in this context", "in this regard",
+            "with respect to", "with regard to",
+            "this approach", "this method", "this technique",
+            "leverages", "utilizes", "facilitates",
+            "encompasses", "demonstrates", "exhibits",
+            "in order to", "due to the fact that",
+            ]
+
+            text_lower = text.lower()
+            total_words = max(len(words), 1)
+            hit_count = sum(
+                text_lower.count(phrase)
+                for phrase in ai_transitions
+            )
+
+        # Normalise per 100 words
+            density = (hit_count / total_words) * 100
+
+            score = 0.0
+            if density > 3.0:   score = 0.9
+            elif density > 2.0: score = 0.7
+            elif density > 1.2: score = 0.4
+            elif density > 0.6: score = 0.2
+            return min(score, 1.0)
+        except Exception:
+            return 0.0
     def _text_burstiness(self, text: str) -> float:
         """
         Humans write in topic bursts (paragraphs with distinct styles).
@@ -1010,6 +1326,8 @@ class EnhancedAITamperingDetector:
         if scores.get("burstiness", 0)           > 0.5: artifacts.append("low_text_burstiness")
         if scores.get("ngram_repetition", 0)     > 0.5: artifacts.append("high_phrase_repetition")
         if scores.get("paragraph_uniformity", 0) > 0.5: artifacts.append("uniform_paragraph_structure")
+        if scores.get("lexical_density", 0)      > 0.5: artifacts.append("unnaturally_high_lexical_density")
+        if scores.get("transition_overuse", 0)   > 0.4: artifacts.append("ai_transition_phrase_overuse")
         return artifacts
 
     # ═══════════════════════════════════════════

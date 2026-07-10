@@ -21,7 +21,6 @@ const Header = () => {
             <Link to="/register" className="text-foreground hover:text-primary transition-smooth">
               Register Content
             </Link>
-            
             <Link to="/about" className="text-foreground hover:text-primary transition-smooth">
               How It Works
             </Link>
@@ -46,3 +45,5 @@ const Header = () => {
 };
 
 export default Header;
+
+

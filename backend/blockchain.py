@@ -1,4 +1,5 @@
 """
+blockchain.py -
 Blockchain integration module for Authx
 Supports multiple blockchain networks with fallback to local simulation
 """
