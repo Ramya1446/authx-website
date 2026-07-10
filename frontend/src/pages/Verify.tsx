@@ -46,7 +46,7 @@ const Verify = () => {
   const [progress, setProgress] = useState(0);
   const { toast } = useToast();
 
-  const API_BASE = "http://127.0.0.1:8000";
+  const API_BASE = "https://authx-website.onrender.com";
 
   const handleFileUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
     const selectedFile = event.target.files?.[0];

@@ -58,8 +58,8 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000", "http://localhost:8081"],
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -694,7 +694,14 @@ async def register_content(
 
         # Blockchain
         try:
-            bc_result = blockchain_manager.register(sha256_hash, owner_name, actual_ct)
+            if blockchain_manager:
+                bc_result = blockchain_manager.register_content(
+                    owner_name, owner_address, actual_ct, description, ai_tool,
+                    sha256_hash, loc_json, artifacts_str,
+                    auth_score, trust_score_val, risk_level
+                )
+            else:
+                bc_result = {"tx_hash": None, "block_number": None}
         except Exception as e:
             print(f"[Blockchain] Non-fatal: {e}")
             bc_result = {"tx_hash": None, "block_number": None}
