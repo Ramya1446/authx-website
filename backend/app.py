@@ -38,7 +38,11 @@ from collections import Counter
 
 # ── Core modules (unchanged) ─────────────────────────────────
 from video_fingerprint_patch import compute_video_fingerprint, compare_video_fingerprints
-from blockchain import BlockchainManager
+try:
+    from blockchain import BlockchainManager
+except Exception as e:
+    print(f"Blockchain disabled: {e}")
+    BlockchainManager = None
 from ai_detector import AITamperingDetector
 
 # ── Journal AuthX: new modules ───────────────────────────────
@@ -74,7 +78,13 @@ def _safe_init(name, factory):
         print(f"  ⚠ {name}: {e}")
         return None
 
-blockchain_manager  = _safe_init("Blockchain manager",      BlockchainManager)
+if BlockchainManager:
+    blockchain_manager = _safe_init(
+        "Blockchain manager",
+        BlockchainManager
+    )
+else:
+    blockchain_manager = None
 ai_detector         = _safe_init("AI detector (legacy)",    AITamperingDetector)
 forensics_engine    = _safe_init("Multimodal forensics",    MultimodalForensics)
 authenticity_scorer = _safe_init("Authenticity scorer",     AuthenticityScorer)
