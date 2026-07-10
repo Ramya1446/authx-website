@@ -92,7 +92,8 @@ const Register = () => {
     form.append("file", file);
 
     try {
-      const res = await fetch("http://127.0.0.1:8000/register", {
+      const API_BASE = "https://authx-website.onrender.com";
+      const res = await fetch(`${API_BASE}/register`, {
         method: "POST",
         body: form
       });
@@ -354,7 +355,7 @@ const Register = () => {
                     Download Certificate
                   </Button>
                   <div className="flex justify-center items-center border rounded-lg p-2">
-                    <QRCode value={`http://127.0.0.1:8000/proof/${proofData.id}`} size={100} />
+                    <QRCode value={`https://authx-website.onrender.com/proof/${proofData.id}`} />
                   </div>
                 </div>
               </div>

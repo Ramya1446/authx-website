@@ -14,7 +14,9 @@ GET  /health               — Health check
 
 All existing endpoints are preserved and backward-compatible.
 """
+import os
 
+BASE_URL = os.getenv("BASE_URL", "http://127.0.0.1:8000")
 from fastapi import FastAPI, File, UploadFile, Form, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
@@ -745,7 +747,7 @@ async def register_content(
                 "sha256":       sha256_hash,
                 "tx_hash":      bc_result.get("tx_hash"),
                 "block_number": bc_result.get("block_number"),
-                "proof_url":    f"http://127.0.0.1:8000/proof/{content_id}",
+                "proof_url": f"{BASE_URL}/proof/{content_id}",
             },
             "authenticity_report": auth_report_dict,
             "legacy_tampering": tampering_result,
