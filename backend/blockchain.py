@@ -4,7 +4,24 @@ Blockchain integration module for Authx
 Supports multiple blockchain networks with fallback to local simulation
 """
 
-from web3 import Web3
+try:
+    from web3 import Web3
+
+    try:
+        from web3.middleware import geth_poa_middleware
+    except ImportError:
+        try:
+            from web3.middleware.geth_poa import geth_poa_middleware
+        except ImportError:
+            geth_poa_middleware = None
+
+    WEB3_AVAILABLE = True
+
+except Exception as e:
+    print(f"⚠️ Web3 unavailable: {e}")
+    Web3 = None
+    geth_poa_middleware = None
+    WEB3_AVAILABLE = False
 # Handle different web3.py versions
 try:
     from web3.middleware import geth_poa_middleware  # type: ignore
@@ -35,8 +52,10 @@ class BlockchainManager:
         self.contract = None
         self.account = None
         
-        if self.mode != "simulation":
+        if WEB3_AVAILABLE and self.mode != "simulation":
             self._initialize_blockchain()
+        else:
+            self.mode = "simulation"
     
     def _initialize_blockchain(self):
         """Initialize Web3 connection based on mode"""
